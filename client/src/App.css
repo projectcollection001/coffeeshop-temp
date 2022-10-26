@@ -1,5 +1,14 @@
+body{
+  background-image: url("./images/Background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  
+}
+
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -35,4 +44,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar{
+  font-family: 'Poppins', sans-serif;
+}
+
+.container-login{
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
 }
